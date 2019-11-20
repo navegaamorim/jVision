@@ -8,6 +8,5 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="opencv-320" level="project" />
-    <orderEntry type="library" name="yadrone_032" level="project" />
   </component>
 </module>
