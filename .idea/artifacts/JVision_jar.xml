@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JVision:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JVision_jar</output-path>
+    <root id="archive" name="JVision.jar">
+      <element id="module-output" name="JVision" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/opencv/opencv-320.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

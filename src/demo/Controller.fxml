@@ -1,0 +1,33 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="demo.Controller">
+    <center>
+        <HBox alignment="CENTER">
+            <padding>
+                <Insets left="10" right="10"/>
+            </padding>
+            <children>
+                <ImageView fx:id="originalFrame"/>
+            </children>
+            <children>
+                <ImageView fx:id="testFrame"/>
+            </children>
+        </HBox>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER">
+            <padding>
+                <Insets bottom="25" left="25" right="25" top="25"/>
+            </padding>
+            <children>
+                <Button fx:id="cameraButton" alignment="center" disable="false" onAction="#startCamera"
+                        text="Start camera"/>
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>
